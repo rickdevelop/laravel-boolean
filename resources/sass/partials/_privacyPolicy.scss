@@ -1,0 +1,16 @@
+.cont {
+  .privacyPolicy {
+    width: 70%;
+    color: $link;
+    h1 {
+      margin: 40px 0;
+      font-weight: 600;
+    }
+    span, p, li {
+      font-size: 20px;
+    }
+    span {
+      display: block;
+    }
+  }
+}
