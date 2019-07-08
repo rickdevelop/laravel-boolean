@@ -17,10 +17,6 @@ Route::get('corso', 'CorsoController@index')->name('corso');
 
 Route::get('metodo', 'MetodoController@index')->name('metodo');
 
-Route::get('students', 'StudentController@index')->name('students');
-
-Route::get('students/{slug}', 'StudentController@show')->name('show');
-
 Route::get('privacy-policy', 'StaticPageController@privacyPolicy')->name('privacy_policy');
 
 Route::get('lavora-con-noi', 'StaticPageController@lavoraConNoi')->name('lavora_con_noi');
